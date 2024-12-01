@@ -27,22 +27,22 @@ header {
 }
 
 .btn-primary {
-    background-color: rgb(248, 162, 0);
-    border: 2px solid rgb(248, 162, 0);
+    background-color: rgb(128, 0, 128); /* Cor roxa */
+    border: 2px solid rgb(128, 0, 128); /* Cor roxa */
     color: white;
     outline: none;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
 .btn-primary:hover {
-    background-color: rgb(230, 150, 0);
-    border-color: rgb(230, 150, 0);
+    background-color: rgb(102, 0, 102); /* Cor roxa mais escura */
+    border-color: rgb(102, 0, 102); /* Cor roxa mais escura */
 }
 
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: rgb(220, 140, 0);
-    border-color: rgb(220, 140, 0);
+    background-color: rgb(90, 0, 90); /* Cor roxa ainda mais escura */
+    border-color: rgb(90, 0, 90); /* Cor roxa ainda mais escura */
     outline: none;
     box-shadow: none;
 }
@@ -53,7 +53,7 @@ header {
 
 #navbar {
     justify-content: space-between;
-    background-color: rgb(248, 162, 0) !important;
+    background-color: rgb(128, 0, 128) !important; /* Cor roxa */
     padding: 5px 0;
 }
 
@@ -63,11 +63,11 @@ header {
 }
 
 #navbar a:hover {
-    color: rgb(5, 16, 32);
+    color: #ccc;
 }
 
 #search-container {
-    background-color: rgb(5, 16, 32);
+    background-color: #ccc;
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -76,7 +76,7 @@ header {
 }
 
 #search-container h1 {
-    color: rgb(248, 162, 0);
+    color: rgb(128, 0, 128); /* Cor roxa */
     margin-bottom: 30px;
     font-weight: 900;
 }
@@ -86,15 +86,15 @@ header {
     margin: 0 auto;
 }
 
-#tarefas-container {
+#comunicados-container {
     padding: 50px;
 }
 
-#tarefas-container h2 {
+#comunicados-container h2 {
     margin-bottom: 10px;
 }
 
-#tarefas-container .subtitle {
+#comunicados-container .subtitle {
     margin-bottom: 30px;
 }
 
@@ -102,13 +102,13 @@ header {
     display: flex;
 }
 
-#tarefas-container .card {    
+#comunicados-container .card {    
     border-radius: 10px;
     padding: 0;
     margin: .5%;
 }
 
-#tarefas-container img {
+#comunicados-container img {
     max-height: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -131,7 +131,7 @@ header {
 
 footer {
     text-align: center;
-    background-color: rgb(5, 16, 32);
+    background-color: rgb(128, 0, 128); /* Cor roxa */
     color: #fff;
     padding: 30px;
     position: absolute;
@@ -139,17 +139,17 @@ footer {
     width: 100%;
 }
 
-#tarefa-create-container {
+#comunicado-create-container {
     padding: 30px;
 }
 
-#tarefa-create-container label {
+#comunicado-create-container label {
     font-weight: bold;
 }
 
-#tarefa-create-container input,
-#tarefa-create-container select,
-#tarefa-create-container textarea {
+#comunicado-create-container input,
+#comunicado-create-container select,
+#comunicado-create-container textarea {
     font-size: 12px;
 }
 
@@ -176,7 +176,7 @@ footer {
     margin-bottom: 15px;
 }
 
-#tarefa-create-container img {
+#comunicado-create-container img {
     max-height: 200px;
 }
 

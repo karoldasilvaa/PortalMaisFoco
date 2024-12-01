@@ -14,15 +14,15 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="/img/task.jpg" class='ms-2'>
+                    &#x1F3E0;
                 </a>
-                <a class="navbar-brand" href="/">Tarefas</a>
+                <a class="navbar-brand" href="/">Comunicados</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="/tasks/create">Criar Tarefa</a>
+                        <a class="nav-link" href="/comunicados/create">Criar Comunicado</a>
 
                         @auth
                             <form action="/logout" method="POST" style="display: inline;">
@@ -55,7 +55,7 @@
             </div>
         </main>
         <footer>
-            <p>Tarefas &copy; 2024</p>
+            <p>Comunicados &copy; 2024</p>
         </footer>
 
         <script scr="/js/app.js"></script>

@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\TaskController;
+use App\Http\Controllers\ComunicadoController;
 
-Route::get('/', [TaskController::class, 'index']);
-Route::get('/tasks/create/{id?}', [TaskController::class, 'create'])->middleware('auth');
-Route::delete("/tasks/{id}", [TaskController::class, 'delete']);
-Route::post("/tasks", [TaskController::class, 'store']);
+Route::get('/', [ComunicadoController::class, 'index']);
+Route::get('/comunicados/create/{id?}', [ComunicadoController::class, 'create'])->middleware('auth');
+Route::delete("/comunicados/{id}", [ComunicadoController::class, 'delete']);
+Route::post("/comunicados", [ComunicadoController::class, 'store']);
 
 Route::get('/contact', function() {
     return view('contact');
