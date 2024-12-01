@@ -4,18 +4,10 @@
 
 @section('content')
 
-<div id="search-container" class="col-md-12">
-    <h1>Busque um Comunicado</h1>
-    <form action="/" method="GET">
-        <div class="input-group">
-            <input type="text" id="search" name="search" class="form-control" placeholder="Buscar..." />
-            <div class="input-group-append">
-                <input class="btn btn-primary" type="submit" value="Buscar">
-            </div>
-        </div>
-    </form>
-</div>
+<!-- React vai renderizar o SearchForm aqui -->
+<div id="search-react"></div>
 
+<!-- O restante da página continua o mesmo -->
 <div id="comunicados-container" class="col-md-12">
     <div class="row">
         <div class="col-6">

@@ -58,7 +58,7 @@
             <p>Comunicados &copy; 2024</p>
         </footer>
 
-        <script scr="/js/app.js"></script>
+        <script src="{{ mix('js/app.js') }}"></script>
         <link rel="stylesheet" href="/css/style.css">
     </body>
 </html>
